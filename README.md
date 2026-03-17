@@ -43,7 +43,7 @@ This project transforms **10,000+ transactional records** into a strategic roadm
 *Visualizing operational performance and payment trend shifts.*
 
 <div align="center">
-  <img src="./Visuals/Supermarket%20Data%20Analysis.png" alt="Supermarket Dashboard Preview" width="900" style="border-radius: 10px; border: 2px solid #1b263b;">
+  <img src="https://raw.githubusercontent.com/mayurlokmanwar-analyst/Supermarket-Data-Analysis-Dashboard-in-Excel/main/Supermarket%20Data%20Analysis.png" alt="Supermarket Dashboard Preview" width="900" style="border-radius: 10px; border: 2px solid #1b263b;">
 </div>
 
 ---
@@ -56,10 +56,10 @@ This project transforms **10,000+ transactional records** into a strategic roadm
 
 ---
 
-## 📁 Repository Structure
+## 📁 Project Structure
 ```text
 Supermarket-Sales-Analysis/
 ├── 📂 Data/                 # Cleaned Dataset (10,000+ records)
-├── 📂 Visuals/              # Exported Charts (Supermarket Data Analysis.png)
+├── 📄 Supermarket Data Analysis.png # Dashboard Preview Image
 ├── 📄 Supermarket Analysis.xlsx # Pivot Tables & Interactive Slicers
 └── 📄 README.md             # Project Documentation
