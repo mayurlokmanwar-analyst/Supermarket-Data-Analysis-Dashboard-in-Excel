@@ -1,52 +1,65 @@
-# 🛒 Supermarket Sales & Customer Insight Analysis (Excel)
+<div align="center">
 
-Welcome to the **Supermarket Sales Analysis** repository! This project provides a deep-dive analysis into the operational performance of a multi-branch supermarket chain, processing over **10,000 transactions** to identify revenue drivers and optimize retail strategies.
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:01080e,40:0d1b2a,70:4682b4,100:01080e&height=220&section=header&text=Supermarket%20Sales%20Intelligence&fontSize=45&fontColor=ffffff&fontAlignY=35&desc=%F0%9F%9B%92%20$31.75M%20Revenue%20Analysis%20%E2%80%A2%20Consumer%20Behavior%20%E2%80%A2%20Excel%20Pivots&descSize=18&descAlignY=60&descColor=a9d6e5&animation=fadeIn" />
 
-[📊 View Project Repository](https://github.com/mayurlokmanwar-analyst/Supermarket-Data-Analysis-Dashboard-in-Excel)
+![GitHub Repo Size](https://img.shields.io/github/repo-size/mayurlokmanwar-analyst/Supermarket-Data-Analysis-Dashboard-in-Excel?color=4682b4&style=for-the-badge)
+![GitHub Last Commit](https://img.shields.io/github/last-commit/mayurlokmanwar-analyst/Supermarket-Data-Analysis-Dashboard-in-Excel?color=a9d6e5&style=for-the-badge)
+<br/>
 
----
+[📊 Explore the Interactive Workbook](https://github.com/mayurlokmanwar-analyst/Supermarket-Data-Analysis-Dashboard-in-Excel)
 
-## 🚀 Overview
-This project transforms raw transactional data into a strategic tool for retail management. By analyzing customer demographics, payment behaviors, and tax impacts, the dashboard provides a roadmap for optimizing discount strategies and improving branch-level efficiency.
-
-### Key Performance Indicators (KPIs):
-- **Total Net Sales:** **$31.75 Million** (Calculated after discounts and taxes).
-- **Transaction Volume:** **10,000+** Unique Bills analyzed.
-- **Top Performing Branch:** **Mumbai** (Highest contributor to total revenue).
-- **Lead Category:** **Electronics** identified as the highest-grossing department.
-- **Average Customer Profile:** Core demographic centered around **41 years of age**.
+</div>
 
 ---
 
-## 🛠️ Technical Toolbelt
-![Microsoft Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
-![Pivot Tables](https://img.shields.io/badge/Pivot_Tables-Analysis-blue?style=for-the-badge)
-![Data Analysis](https://img.shields.io/badge/Data_Analysis-ETL_&_Modeling-orange?style=for-the-badge)
+## 🚀 Strategic Overview
+This project transforms **10,000+ transactional records** into a strategic roadmap for retail management. By evaluating the performance of a multi-branch supermarket chain, this dashboard identifies core revenue drivers, optimizes discount strategies, and pinpoints operational inefficiencies across different urban hubs.
 
-- **Advanced ETL:** Cleaned and structured 22 columns of raw data, ensuring precise Date/Time formatting and tax validation.
-- **Feature Engineering:** Created custom attributes such as **"Sales Category"** (High/Medium/Low) and **"Day Name"** to pinpoint weekly shopping peaks.
-- **Financial Analytics:** Calculated the complex relationship between Gross Sales, GST, and Discount % to determine actual **Net Profitability**.
-
----
-
-## 📸 Visualization Highlights
-- **Trend Analysis:** Line charts tracking revenue fluctuations across months and days.
-- **Product Distribution:** Comparative charts for volume across Bakery, Dairy, and Electronics.
-- **Segment Profiling:** Pie charts visualizing the split between "High-Value" and "Lower-Value" transactions.
+### 📈 Core Business KPIs
+| **Metric** | **Value** | **Business Impact** |
+| :--- | :--- | :--- |
+| **Total Net Sales** | **$31.75M** | Post-tax and discount revenue across all branches. |
+| **Branch Leader** | **Mumbai** | Highest regional contributor to total growth. |
+| **Top Category** | **Electronics** | Highest-grossing department by volume and value. |
+| **Avg Customer** | **41 Years** | Core demographic identified for targeted marketing. |
 
 ---
 
-## 💡 Business Insights & Impact
-* **Branch Efficiency:** **Mumbai** and **Bangalore** outpace other regions, suggesting a higher demand for premium categories in urban hubs.
-* **Payment Optimization:** Digital payments (**Wallet/UPI**) now drive the majority of transactions, indicating a major shift away from traditional Cash.
-* **Inventory Strategy:** Seasonal spikes in **Electronics** and **Personal Care** suggest a need for targeted stock adjustments during peak months.
+## 🛠️ Technical Architecture
+
+<div align="center">
+
+| **Phase** | **Technology** | **Implementation Details** |
+| :--- | :--- | :--- |
+| **Advanced ETL** | ![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white) | Structured 22 columns of raw data with tax validation. |
+| **Feature Eng.** | ![Data Analysis](https://img.shields.io/badge/Logic-ETL-orange?style=flat-square) | Created "Day Name" & "Sales Category" for trend tracking. |
+| **Financial Logic** | ![Pivot Tables](https://img.shields.io/badge/Pivot_Tables-4682b4?style=flat-square) | Calculated Gross vs. Net Profitability via GST/Discount logic. |
+
+</div>
 
 ---
 
-## 📁 Project Structure
+## 📸 Dashboard Preview
+*Visualizing operational performance and payment trend shifts.*
+
+<div align="center">
+  <img src="./Visuals/Supermarket%20Data%20Analysis.png" alt="Supermarket Dashboard Preview" width="900" style="border-radius: 10px; border: 2px solid #1b263b;">
+</div>
+
+---
+
+## 💡 Strategic Business Insights
+* **Branch Efficiency:** **Mumbai** and **Bangalore** outpace all other regions, indicating a massive demand for premium electronics in metro hubs.
+* **Payment Transformation:** Digital payments (**UPI/Wallet**) now dominate the share of transactions, suggesting a shift away from cash-handling operations.
+* **Peak Timing:** Identified specific **Day Name** spikes, allowing for better staff scheduling and inventory stocking during high-velocity hours.
+* **Margin Impact:** Discovered that despite high volume, some "Bakery" items have lower net profitability due to aggressive discount scaling.
+
+---
+
+## 📁 Repository Structure
 ```text
 Supermarket-Sales-Analysis/
-├── Data/               # Cleaned Dataset (10,000+ records)
-├── Visuals/            # Exported Histograms, Pie Charts, and Line Charts
-├── Supermarket Analysis.xlsx # Excel Workbook with Pivots & Slicers
-└── README.md           # Project Documentation
+├── 📂 Data/                 # Cleaned Dataset (10,000+ records)
+├── 📂 Visuals/              # Exported Charts (Supermarket Data Analysis.png)
+├── 📄 Supermarket Analysis.xlsx # Pivot Tables & Interactive Slicers
+└── 📄 README.md             # Project Documentation
